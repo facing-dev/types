@@ -9,7 +9,7 @@ const config = tseslint.config(
   {
     languageOptions: {
       parserOptions: {
-        project: './tsconfig/tsconfig.esm.json',
+        project: './tsconfig/tsconfig.lint.json',
         tsconfigRootDir: import.meta.dirname,
       },
     }
