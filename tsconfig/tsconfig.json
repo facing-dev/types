@@ -16,7 +16,7 @@
         "declarationMap": true,
         "noUnusedLocals": true
     },
-    "include": [
+    "files": [
         "../src/index.ts",
     ]
 }
