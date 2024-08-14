@@ -1,7 +1,7 @@
 import { describe, it, expect } from "@jest/globals"
-
+import I from './index.mjs'
 describe('test',()=>{
     it('default',()=>{
-        expect(true).toBe(true)
+        expect(I).toBe(true)
     })
 })

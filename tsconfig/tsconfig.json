@@ -3,20 +3,21 @@
         "baseUrl": "../src",
         "rootDir": "../src",
         "target": "ES6",
-        "strict": true,
-        "sourceMap": true,
         "lib": [
             "ES6"
         ],
+        "strict": true,
+        "alwaysStrict": true,
+        "sourceMap": true,
         "esModuleInterop": true,
         "isolatedModules": true,
         "emitDeclarationOnly": false,
-        "composite": false,
+        "composite": true,
         "declaration": true,
         "declarationMap": true,
-        "noUnusedLocals": true
+        "noUnusedLocals": true,
     },
     "files": [
-        "../src/index.ts",
+        "../src/index.mts"
     ]
 }
