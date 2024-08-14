@@ -17,7 +17,8 @@
         "declarationMap": true,
         "noUnusedLocals": true,
     },
-    "files": [
-        "../src/index.mts"
+    "include": [
+        "../src/**/*.mts",
+        "../src/**/*.mtsx"
     ]
 }

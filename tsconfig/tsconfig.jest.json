@@ -1,8 +1,5 @@
 {
     "extends": "./tsconfig.json",
-    "include": [
-        "../src/index.mts"
-    ],
     "exclude": [
         "../src/**/*.test.mts",
         "../src/**/test.mts"
